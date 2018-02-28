@@ -26,7 +26,10 @@
         ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "platform": {
+            "php": "7.0.27"
+        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
