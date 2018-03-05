@@ -6,16 +6,11 @@
 	<div class="row">
 		<div class="large-9 medium-8 columns">
 			<div class="content">
-				$Content
-        hfohrgiorgiojgidgk
+        ghuifhgkhdfilsehlifhkf
+        $Content
+        $Form
 			</div>
-
-			$UserDefinedForm
-			$Form
-
 		</div>
-
-
 
 		<div class="large-3 medium-4 columns">
 			<% include SideBarContact %>
