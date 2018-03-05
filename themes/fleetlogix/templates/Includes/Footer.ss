@@ -49,7 +49,7 @@
 	<div class="footer-lower">
 		<% with $SiteConfig %>
 			<div class="row">
-				<div class="large-6 medium-6 columns"><p>&copy; Copyright FleetLogix All Rights Reserved | <a href="/">Polices</a> | <a href="/">Terms &amp; Conditions</a></p></div>
+				<div class="large-6 medium-6 columns"><p>&copy; Copyright FleetLogix All Rights Reserved | <% with $Page('policies') %><a href="$Link">Polices</a><% end_with %> | <% with $Page('conditions') %><a href="/">Terms &amp; Conditions</a><% end_with %></p></div>
 				<div class="large-6 medium-6 columns text-right">
 					<ul>
 						<% if $FacebookLink %>
