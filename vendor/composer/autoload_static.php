@@ -26,6 +26,10 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'U' => 
+        array (
+            'UndefinedOffset\\NoCaptcha\\' => 26,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -44,6 +48,8 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
             'SilverStripe\\Versioned\\' => 23,
             'SilverStripe\\VendorPlugin\\Tests\\' => 32,
             'SilverStripe\\VendorPlugin\\' => 26,
+            'SilverStripe\\SpamProtection\\Tests\\' => 34,
+            'SilverStripe\\SpamProtection\\' => 28,
             'SilverStripe\\SiteConfig\\Tests\\' => 30,
             'SilverStripe\\SiteConfig\\' => 24,
             'SilverStripe\\Security\\Tests\\' => 28,
@@ -139,6 +145,10 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'UndefinedOffset\\NoCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/undefinedoffset/silverstripe-nocaptcha/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -202,6 +212,14 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         'SilverStripe\\VendorPlugin\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/vendor-plugin/src',
+        ),
+        'SilverStripe\\SpamProtection\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/spamprotection/tests',
+        ),
+        'SilverStripe\\SpamProtection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/spamprotection/code',
         ),
         'SilverStripe\\SiteConfig\\Tests\\' => 
         array (

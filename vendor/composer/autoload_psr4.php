@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
+    'UndefinedOffset\\NoCaptcha\\' => array($vendorDir . '/undefinedoffset/silverstripe-nocaptcha/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Apcu\\' => array($vendorDir . '/symfony/polyfill-apcu'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
@@ -24,6 +25,8 @@ return array(
     'SilverStripe\\Versioned\\' => array($vendorDir . '/silverstripe/versioned/src'),
     'SilverStripe\\VendorPlugin\\Tests\\' => array($vendorDir . '/silverstripe/vendor-plugin/tests'),
     'SilverStripe\\VendorPlugin\\' => array($vendorDir . '/silverstripe/vendor-plugin/src'),
+    'SilverStripe\\SpamProtection\\Tests\\' => array($vendorDir . '/silverstripe/spamprotection/tests'),
+    'SilverStripe\\SpamProtection\\' => array($vendorDir . '/silverstripe/spamprotection/code'),
     'SilverStripe\\SiteConfig\\Tests\\' => array($vendorDir . '/silverstripe/siteconfig/tests/php'),
     'SilverStripe\\SiteConfig\\' => array($vendorDir . '/silverstripe/siteconfig/code'),
     'SilverStripe\\Security\\Tests\\' => array($vendorDir . '/silverstripe/framework/tests/php/Security'),
