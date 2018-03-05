@@ -16,7 +16,7 @@ class Page extends SiteTree
     public function getCMSFields() {
         $fields = parent::getCMSFields();
 
-        if ("ClassName" != "HomePage") {
+        if ($ClassName != "HomePage") {
           $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionHeader", "Page Specific: Call to Action Header"));
           $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionText", "Page Specific: Call to Action Text"));
           $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionLink", "Page Specific: Call to Action Link"));
