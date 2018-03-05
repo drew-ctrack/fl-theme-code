@@ -3,6 +3,7 @@
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Versioned\Versioned;
+use SilverStripe\AssetAdmin\Forms\UploadField;
 
 class Company extends DataObject {
 
