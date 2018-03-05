@@ -29,6 +29,9 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         'U' => 
         array (
             'UndefinedOffset\\NoCaptcha\\' => 26,
+            'UncleCheese\\DisplayLogic\\Tests\\Behaviour\\' => 41,
+            'UncleCheese\\DisplayLogic\\Tests\\' => 31,
+            'UncleCheese\\DisplayLogic\\' => 25,
         ),
         'S' => 
         array (
@@ -152,6 +155,18 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         'UndefinedOffset\\NoCaptcha\\' => 
         array (
             0 => __DIR__ . '/..' . '/undefinedoffset/silverstripe-nocaptcha/src',
+        ),
+        'UncleCheese\\DisplayLogic\\Tests\\Behaviour\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclecheese/display-logic/tests/behat/src',
+        ),
+        'UncleCheese\\DisplayLogic\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclecheese/display-logic/tests/php',
+        ),
+        'UncleCheese\\DisplayLogic\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclecheese/display-logic/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
