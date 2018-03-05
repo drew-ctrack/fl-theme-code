@@ -10,6 +10,7 @@ class Company extends DataObject {
 
     private static $has_one = [
         'HomePage' => HomePage::class,
+        'CompanyLogo' => Image::class
     ];
 
     private static $extensions = [
@@ -20,7 +21,6 @@ class Company extends DataObject {
 
     private static $db = [
         'CompanyName' => 'Text',
-        'CompanyLogo' => Image::class
     ];
 
     private static $summary_fields = [
