@@ -8,7 +8,8 @@
         "silverstripe/recipe-cms": "1.0.1@stable",
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/spamprotection": "^3.0",
-        "undefinedoffset/silverstripe-nocaptcha": "master"
+        "undefinedoffset/silverstripe-nocaptcha": "master",
+        "silverstripe/userforms": "^5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"

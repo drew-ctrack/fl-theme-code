@@ -40,6 +40,8 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
             'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
+            'Symbiote\\GridFieldExtensions\\Tests\\' => 35,
+            'Symbiote\\GridFieldExtensions\\' => 29,
             'SilverStripe\\i18n\\Tests\\' => 24,
             'SilverStripe\\i18n\\' => 18,
             'SilverStripe\\View\\Tests\\' => 24,
@@ -48,6 +50,8 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
             'SilverStripe\\Versioned\\' => 23,
             'SilverStripe\\VendorPlugin\\Tests\\' => 32,
             'SilverStripe\\VendorPlugin\\' => 26,
+            'SilverStripe\\UserForms\\Tests\\' => 29,
+            'SilverStripe\\UserForms\\' => 23,
             'SilverStripe\\SpamProtection\\Tests\\' => 34,
             'SilverStripe\\SpamProtection\\' => 28,
             'SilverStripe\\SiteConfig\\Tests\\' => 30,
@@ -181,6 +185,14 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
+        'Symbiote\\GridFieldExtensions\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symbiote/silverstripe-gridfieldextensions/tests',
+        ),
+        'Symbiote\\GridFieldExtensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symbiote/silverstripe-gridfieldextensions/src',
+        ),
         'SilverStripe\\i18n\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/tests/php/i18n',
@@ -212,6 +224,14 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         'SilverStripe\\VendorPlugin\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/vendor-plugin/src',
+        ),
+        'SilverStripe\\UserForms\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/userforms/tests',
+        ),
+        'SilverStripe\\UserForms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/userforms/code',
         ),
         'SilverStripe\\SpamProtection\\Tests\\' => 
         array (
@@ -276,10 +296,12 @@ class ComposerStaticInite3050acb26c2a9513812c919dbade704
         'SilverStripe\\Forms\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/tests/php/Forms',
+            1 => __DIR__ . '/..' . '/silverstripe/segment-field/tests',
         ),
         'SilverStripe\\Forms\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/src/Forms',
+            1 => __DIR__ . '/..' . '/silverstripe/segment-field/code',
         ),
         'SilverStripe\\ErrorPage\\Tests\\' => 
         array (
