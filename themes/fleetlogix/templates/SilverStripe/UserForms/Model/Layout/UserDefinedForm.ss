@@ -6,7 +6,6 @@
 	<div class="row">
 		<div class="large-9 medium-8 columns">
 			<div class="content">
-        ghuifhgkhdfilsehlifhkf
         $Content
         $Form
 			</div>
