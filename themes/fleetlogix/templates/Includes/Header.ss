@@ -4,6 +4,7 @@
 			<a href="/" id="logo"><img src="$ThemeDir/assets/img/fleetlogix-logo-light.svg" alt="" class="light-logo"></a>
 		</div>
 		<div class="large-9 columns medium-9">
+			<!-- Navbar -->
 			<a id="hamburger" href="#more-menu"><span></span></a>
 			<nav id="nav" role="navigation">
 				<ul class="nav-menu">

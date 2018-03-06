@@ -1,3 +1,4 @@
+<!-- Call to Action: Footer -->
 <% if $ctaCheckboxFooter %>
 	<% with $SiteConfig %>
 		<section class="cta animate-box">
@@ -14,9 +15,10 @@
 	<% end_with %>
 <% end_if %>
 
-
 <footer>
 	<div class="row">
+
+		<!-- Loop First Three ProductHolder Pages -->
 		<div class="large-12 columns text-center">
 			<a href="index.html" id="logo"><img src="$ThemeDir/assets/img/fleetlogix-logo-light.svg" alt="" class="light-logo"></a>
 		</div>
@@ -34,6 +36,7 @@
         	<% end_if %>
 		<% end_loop %>
 
+		<!-- List Contact Info -->
 		<div class="large-3 medium-3 small-12 columns">
 			<h5><a href="/">Contact FleetLogix</a></h5>
 				<ul>
@@ -49,6 +52,7 @@
 		</div>
 	</div>
 
+	<!-- Social Media Links -->
 	<div class="footer-lower">
 		<div class="row">
 			<div class="large-6 medium-6 columns"><p>&copy; Copyright FleetLogix All Rights Reserved | <% with $Page('policies') %><a href="$Link">Polices</a><% end_with %> | <% with $Page('terms-and-conditions') %><a href="$Link">Terms &amp; Conditions</a><% end_with %></p></div>

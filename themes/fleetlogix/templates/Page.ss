@@ -7,14 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FleetLogix</title>
 	<link rel="stylesheet" href="$ThemeDir/assets/css/app.css">
-	
 </head>
+
 <body>
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
 	</div>
-	
-	<!-- mobile menu -->
+
+	<!-- Mobile Menu -->
 	<div class="menu-wrap">
 		<nav class="menu">
 			<ul class="nav-menu">
@@ -26,13 +26,13 @@
 		</nav>
 	</div>
 	<button class="menu-button fa fa-bars" id="open-button"><span></button>
-        
+
 	<% include Header %>
-          
+
 	$Layout
-      
+
 	<% include Footer %>
-    
+
 	<script src="$ThemeDir/assets/js/app.js"></script>
 
 	<script src="$ThemeDir/assets/js/gallery/featherlight.js"></script>
