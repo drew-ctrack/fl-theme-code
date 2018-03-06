@@ -10,8 +10,8 @@ class Page extends SiteTree
       'PageCallToActionHeader' => 'Varchar',
       'PageCallToActionText' => 'Varchar',
       'PageCallToActionLink' => 'Varchar',
-      'ctaFooterCheck' => 'Boolean',
-      'ctaSideCheck' => 'Boolean'
+      'ctaCheckbox' => 'Boolean',
+      'ctaCheckboxFooter' => 'Boolean'
     ];
 
     private static $has_one = [];
