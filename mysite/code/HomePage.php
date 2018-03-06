@@ -18,7 +18,8 @@ class HomePage extends Page {
 
     private static $db = [
         'HeadingText' => 'Text',
-        'HeadingSubtext' => 'Text'
+        'HeadingSubtext' => 'Text',
+        'ContentLink' => 'Varchar'
     ];
 
     public function getCMSFields() {
@@ -26,6 +27,7 @@ class HomePage extends Page {
 
         $fields->addFieldtoTab('Root.Main', TextField::create('HeadingText','Header Text'), 'Content');
         $fields->addFieldtoTab('Root.Main', TextField::create('HeadingSubtext','Header Subtext'), 'Content');
+        $fields->addFieldtoTab('Root.Main', TextField::create('ContentLink','Learn More Link'), 'Content');
 
         $fields->addFieldToTab('Root.Reasons', GridField::create('Reasons', 'Why FleetLogix?', $this->Reasons(), GridFieldConfig_RecordEditor::create()));
         $fields->addFieldToTab('Root.Companies', GridField::create('Companies', 'Supported Businesses', $this->Companies(), GridFieldConfig_RecordEditor::create()));

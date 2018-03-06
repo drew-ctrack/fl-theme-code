@@ -21,7 +21,7 @@
 				<div class="background-image half left" style="background-image: url($ThemeDir/assets/img/bus-bg.jpg);"><span class="gradient-overlay"></span></div>
 				<div class="half content right">
 					$Content
-					<a href="/" class="button">Learn More</a>
+					<a href="$ContentLink" class="button">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -82,7 +82,7 @@
 		<% end_loop %>
 
 		<div class="large-12 columns text-center">
-			<a href="/" class="button">View All Fleet Solutions</a>
+			<% with $Page('solutions') %><a href="$Link" class="button">View All Fleet Solutions</a><% end_with %>
 		</div>
 	</div>
 </section>
