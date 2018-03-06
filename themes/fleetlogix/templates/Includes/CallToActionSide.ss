@@ -1,5 +1,5 @@
 <!-- CTA 1 -->
-<% if $PageCallToActionHeader %>
+<% if $ctaCheckbox %>
 	<a href="$PageCallToActionLink" class="cta-container blocks animate-box">
 		<div class="background-image" style="background-image: url($ThemeDir/assets/img/cta-bg.jpg);"></div>
 		<div class="overlay"></div>

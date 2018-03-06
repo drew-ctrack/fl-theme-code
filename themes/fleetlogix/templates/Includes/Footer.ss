@@ -1,16 +1,19 @@
-<section class="cta animate-box">
-	<div class="background-image" style="background-image: url($ThemeDir/assets/img/cta-bg.jpg);"></div>
-	<div class="overlay"></div>
-	<div class="row">
-		<div class="large-12 columns">
-			<% with $SiteConfig %>
-				<h2>$CallToActionHeader</h2>
-				<p>$CallToActionText</p>
-				<a href="$CallToActionLink" class="button">Learn More</a>
-			<% end_with %>
-		</div>
-	</div>
-</section>
+<% with $SiteConfig %>
+	<% if $ctaCheckboxFooter %>
+		<section class="cta animate-box">
+			<div class="background-image" style="background-image: url($ThemeDir/assets/img/cta-bg.jpg);"></div>
+			<div class="overlay"></div>
+			<div class="row">
+				<div class="large-12 columns">
+					<h2>$CallToActionHeader</h2>
+					<p>$CallToActionText</p>
+					<a href="$CallToActionLink" class="button">Learn More</a>
+				</div>
+			</div>
+		</section>
+	<% end_if %>
+<% end_with %>
+
 
 <footer>
 	<div class="row">
