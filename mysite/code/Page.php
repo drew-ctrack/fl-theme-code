@@ -16,13 +16,16 @@ class Page extends SiteTree
     public function getCMSFields() {
         $fields = parent::getCMSFields();
 
-        $pageClass = static::class;
+        $fields->addFieldsToTab("Root.CallToAction", array(
+          $ctaHeader = TextField::create("PageCallToActionHeader", "Page Specific: Call to Action Header"),
+          $ctaText = TextField::create("PageCallToActionText", "Page Specific: Call to Action Text"),
+          $ctaLink = TextField::create("PageCallToActionLink", "Page Specific: Call to Action Link"),
+          CheckboxField::create("ctaCheckbox", "Enable Call to Action")
+        ));
 
-        if ($pageClass != "HomePage") {
-          $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionHeader", "Page Specific: Call to Action Header"));
-          $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionText", "Page Specific: Call to Action Text"));
-          $fields->addFieldsToTab("Root.CallToAction", TextField::create("PageCallToActionLink", "Page Specific: Call to Action Link"));
-        };
+        $ctaHeader->displayIf("ctaCheckbox")->isChecked();
+        $ctaText->displayIf("ctaCheckbox")->isChecked();
+        $ctaLink->displayIf("ctaCheckbox")->isChecked();
 
         return $fields;
     }
