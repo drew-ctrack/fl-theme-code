@@ -2,6 +2,7 @@
 
 use SilverStripe\CMS\Model\SiteTree;
 use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\CheckboxField;
 
 class Page extends SiteTree
 {
