@@ -9,7 +9,9 @@ class Page extends SiteTree
     private static $db = [
       'PageCallToActionHeader' => 'Varchar',
       'PageCallToActionText' => 'Varchar',
-      'PageCallToActionLink' => 'Varchar'
+      'PageCallToActionLink' => 'Varchar',
+      'ctaFooterCheck' => 'Boolean',
+      'ctaSideCheck' => 'Boolean'
     ];
 
     private static $has_one = [];
