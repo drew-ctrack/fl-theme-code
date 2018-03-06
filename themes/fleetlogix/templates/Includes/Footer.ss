@@ -1,5 +1,5 @@
-<% with $SiteConfig %>
-	<% if $ctaCheckboxFooter %>
+<% if $ctaCheckboxFooter %>
+	<% with $SiteConfig %>
 		<section class="cta animate-box">
 			<div class="background-image" style="background-image: url($ThemeDir/assets/img/cta-bg.jpg);"></div>
 			<div class="overlay"></div>
@@ -11,8 +11,8 @@
 				</div>
 			</div>
 		</section>
-	<% end_if %>
-<% end_with %>
+	<% end_with %>
+<% end_if %>
 
 
 <footer>
