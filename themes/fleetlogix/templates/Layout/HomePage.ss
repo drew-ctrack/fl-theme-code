@@ -87,6 +87,7 @@
 	</div>
 </section>
 
+<% if Reasons %>
 <section class="home-content why-section animate-box">
 	<div class="light-rec right"></div>
 		<div class="row">
@@ -129,7 +130,9 @@
 		</div>
 	</div>
 </section>
+<% end_if %>
 
+<% if Companies %>
 <section class="logos animate-box">
 	<div class="row">
 		<div class="large-12 columns text-center">
@@ -143,3 +146,4 @@
 		<% end_loop %>
 	</div>
 </section>
+<% end_if %>
